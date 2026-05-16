@@ -490,7 +490,7 @@ body {
 <hr class="divider">
 ```
 
-## Personajes Clave de la Historia
+ Personajes Clave de la Historia
 
 ```{=html}
 <div class="persona-grid fade-in">
@@ -528,7 +528,7 @@ body {
 </div>
 ```
 
-## Línea del Tiempo
+ Línea del Tiempo
 
 ```{=html}
 <details>
@@ -604,7 +604,7 @@ body {
 <p class="img-caption">Figura 2. Conceptos fundamentales de la estadística.</p>
 ```
 
-## Población, Muestra y Variables
+ Población, Muestra y Variables
 
 ```{=html}
 <div class="card-grid fade-in">
@@ -652,7 +652,7 @@ body {
 </div>
 ```
 
-## Estadística Descriptiva vs. Inferencial
+ Estadística Descriptiva vs. Inferencial
 
 ```{=html}
 <div class="dos-cols fade-in">
@@ -674,7 +674,7 @@ body {
 </div>
 ```
 
-## Utilidad en Administración Pública
+ Utilidad en Administración Pública
 
 ```{=html}
 <p class="texto-seccion">
@@ -715,7 +715,7 @@ body {
 </div>
 ```
 
-## Fenómenos Estadísticos y No Estadísticos
+ Fenómenos Estadísticos y No Estadísticos
 
 ```{=html}
 <div class="dos-cols fade-in">
@@ -751,7 +751,7 @@ body {
 </div>
 ```
 
-## Etapas de una Investigación Estadística
+ Etapas de una Investigación Estadística
 
 ```{=html}
 <div class="etapas-grid fade-in">
@@ -788,10 +788,10 @@ body {
 </div>
 ```
 
-## Preguntas de Repaso
+ Preguntas de Repaso
 
 ::: panel-tabset
-### Conceptos básicos
+ Conceptos básicos
 
 ```{=html}
 <div class="qa-box">
@@ -815,7 +815,7 @@ body {
 </div>
 ```
 
-### Verdadero o Falso
+ Verdadero o Falso
 
 ```{=html}
 <table class="vf-table">
@@ -867,7 +867,7 @@ body {
 </table>
 ```
 
-### Diseño de formularios
+ Diseño de formularios
 
 ```{=html}
 <div class="dos-cols">
@@ -931,7 +931,7 @@ body {
 </div>
 ```
 
-## Tabla de Clasificación — Administración Pública
+ Tabla de Clasificación — Administración Pública
 
 ```{=html}
 <p class="texto-seccion">Busca variables por nombre o filtra por tipo usando la barra de búsqueda:</p>
@@ -1022,7 +1022,7 @@ function filtrarTabla() {
 </script>
 ```
 
-## Resumen Visual por Tipo
+ Resumen Visual por Tipo
 
 ```{r, message=FALSE, warning=FALSE}
 library(plotly)

@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Paola Alejandra Montoya Aponte Angela Liliana Tique Quiroga Luis Felipe Arenas Ramirez">
+
+<title>HISTORIA DE LA ESTADISTICA CONCEPTOS Y VARIABLES</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-ff73747157bea4a22cb1ab1a769f836e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-70c609ab7fc4473d76c6a6d691953e96.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<style>html{ scroll-behavior: smooth; }</style>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #144a8a;
+      }
+</style>
+<link href="index_files/libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+
+<script src="index_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="index_files/libs/plotly-binding-4.12.0/plotly.js"></script>
+
+<script src="index_files/libs/typedarray-0.1/typedarray.min.js"></script>
+
+<script src="index_files/libs/jquery-3.5.1/jquery.min.js"></script>
+
+<link href="index_files/libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="index_files/libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
+<link href="index_files/libs/plotly-htmlwidgets-css-2.25.2/plotly-htmlwidgets.css" rel="stylesheet">
+
+<script src="index_files/libs/plotly-main-2.25.2/plotly-latest.min.js"></script>
+
+
+
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">HISTORIA DE LA ESTADISTICA CONCEPTOS Y VARIABLES</h1>
+            <p class="subtitle lead">Taller_1</p>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author column-page-left">
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-heading">Afiliación</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Paola Alejandra Montoya Aponte<br>Angela Liliana Tique Quiroga<br>Luis Felipe Arenas Ramirez </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.esap.edu.co/">
+              Escuela Superior de Administracion Pública
+              </a>
+            </p>
+        </div>
+    </div>
+
+  <div class="quarto-title-meta column-page-left">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">15 de mayo de 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenido</h2>
+   
+  <ul>
+  <li><a href="#historia-de-la-estadística" id="toc-historia-de-la-estadística" class="nav-link active" data-scroll-target="#historia-de-la-estadística"><span class="header-section-number">1</span> Historia de la Estadística</a></li>
+  <li><a href="#conceptos-fundamentales-de-la-estadística" id="toc-conceptos-fundamentales-de-la-estadística" class="nav-link" data-scroll-target="#conceptos-fundamentales-de-la-estadística"><span class="header-section-number">2</span> Conceptos Fundamentales de la Estadística</a></li>
+  <li><a href="#clasificación-de-variables" id="toc-clasificación-de-variables" class="nav-link" data-scroll-target="#clasificación-de-variables"><span class="header-section-number">3</span> Clasificación de Variables</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<!-- ===== LOGO ESAP ===== -->
+<style>
+.logo-esap {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 99999;
+  width: 280px;
+  height: auto;
+}
+</style>
+<img class="logo-esap" src="Logo_Esap.png" alt="Logo ESAP">
+
+<!-- ===== ESTILOS GLOBALES ===== -->
+<style>
+
+/* ----- RESET Y CUERPO ----- */
+body {
+  font-size: 115%;
+  text-align: justify;
+  color: #000000;
+  line-height: 1.75;
+}
+
+/* ----- SECCIÓN HERO (Inicio) ----- */
+.hero-section {
+  background: linear-gradient(135deg, #0d2a4e 0%, #144a8a 50%, #1a6abf 100%);
+  border-radius: 16px;
+  padding: 2.5rem 3rem;
+  margin: 1.5rem 0 2rem 0;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+}
+.hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -60px;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: rgba(237,166,152,0.1);
+}
+.hero-section h2 {
+  color: #EDA698;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.hero-section p {
+  color: rgba(255,255,255,0.9);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ----- TARJETAS CONCEPTO ----- */
+.concepto-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-left: 5px solid #3892f8;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.concepto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(56,146,248,0.25);
+  background: rgba(255,255,255,0.12);
+}
+.concepto-card h4 {
+  color: #3892f8;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+.concepto-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #000000;
+}
+.concepto-card .ejemplo {
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  color: #000000;
+  font-style: italic;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 0.5rem;
+}
+
+/* ----- GRID DE TARJETAS ----- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0;
+}
+
+/* ----- BADGES ----- */
+.badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-right: 6px;
+  letter-spacing: 0.04em;
+}
+.badge-nominal  { background: #1e3a5f; color: #6ab0f5; }
+.badge-ordinal  { background: #1e3d2b; color: #5fcf8a; }
+.badge-discreta { background: #3d2b1e; color: #f5a05f; }
+.badge-continua { background: #3d1e2b; color: #f56a8a; }
+
+/* ----- TABLA VARIABLES ----- */
+.tabla-variables {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 1rem;
+}
+.tabla-variables thead th {
+  background: #144a8a;
+  color: #fff;
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.tabla-variables tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  transition: background 0.2s;
+}
+.tabla-variables tbody tr:hover {
+  background: rgba(56,146,248,0.12);
+}
+.tabla-variables td {
+  padding: 8px 14px;
+  vertical-align: middle;
+  color: #000000;
+}
+.tabla-variables td:first-child {
+  font-weight: 500;
+  color: #000000;
+}
+.check {
+  display: inline-block;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  line-height: 22px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.check-nominal  { background: #1e3a5f; color: #6ab0f5; }
+.check-ordinal  { background: #1e3d2b; color: #5fcf8a; }
+.check-discreta { background: #3d2b1e; color: #f5a05f; }
+.check-continua { background: #3d1e2b; color: #f56a8a; }
+
+/* ----- LÍNEA DE TIEMPO ----- */
+.timeline {
+  position: relative;
+  padding-left: 2.5rem;
+  margin: 2rem 0;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #144a8a, #3892f8, #EDA698);
+  border-radius: 3px;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.8rem;
+  animation: fadeUp 0.6s ease both;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.05rem; top: 6px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #3892f8;
+  border: 3px solid #144a8a;
+  box-shadow: 0 0 8px rgba(56,146,248,0.5);
+  transition: all 0.3s ease;
+}
+.timeline-item:hover::before {
+  background: #EDA698;
+  box-shadow: 0 0 12px rgba(237,166,152,0.7);
+}
+.timeline-year {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #3892f8;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.timeline-content {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: #000000;
+  transition: background 0.3s ease;
+}
+.timeline-content:hover { background: rgba(255,255,255,0.1); }
+.timeline-content strong { color: #f0c080; }
+
+/* ----- CAJAS Q&A ----- */
+.qa-box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 1.1rem;
+  transition: background 0.3s;
+}
+.qa-box:hover { background: rgba(255,255,255,0.09); }
+.qa-box .pregunta {
+  font-weight: 700;
+  color: #3892f8;
+  margin-bottom: 0.5rem;
+  font-size: 0.97rem;
+}
+.qa-box .respuesta {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #000000;
+}
+
+/* ----- TABLA VERDADERO/FALSO ----- */
+.vf-table { width: 100%; border-collapse: collapse; margin-top: 0.8rem; font-size: 0.88rem; }
+.vf-table th { background: #144a8a; color: #000000; padding: 8px 12px; text-align: left; }
+.vf-table td { padding: 8px 12px; border-bottom: 1px solid rgba(255,255,255,0.08); vertical-align: top; color: #000000; }
+.vf-table tr:hover td { background: rgba(56,146,248,0.08); }
+.verdadero { color: #5fcf8a; font-weight: 700; }
+.falso     { color: #f56a8a; font-weight: 700; }
+
+/* ----- DOS COLUMNAS ----- */
+.dos-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+}
+@media (max-width: 700px) { .dos-cols { grid-template-columns: 1fr; } }
+.col-card {
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #000000;
+}
+.col-descriptiva { background: rgba(20,74,138,0.3); border: 1px solid #3892f8; }
+.col-inferencial  { background: rgba(31,61,43,0.3);  border: 1px solid #5fcf8a; }
+.col-card h4 { margin-bottom: 0.5rem; font-size: 1rem; }
+.col-descriptiva h4 { color: #6ab0f5; }
+.col-inferencial  h4 { color: #5fcf8a; }
+.col-card ul { padding-left: 1.3rem; color: #000000; font-size: 0.9rem; }
+.col-card li { margin-bottom: 4px; }
+
+/* ----- ETAPAS INVESTIGACIÓN ----- */
+.etapas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.etapa-card {
+  background: rgba(255,255,255,0.05);
+  border-top: 4px solid;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  font-size: 0.9rem;
+}
+.etapa-card:nth-child(1) { border-color: #3892f8; }
+.etapa-card:nth-child(2) { border-color: #f5a05f; }
+.etapa-card:nth-child(3) { border-color: #5fcf8a; }
+.etapa-card h4 { margin-bottom: 0.6rem; font-size: 0.97rem; }
+.etapa-card:nth-child(1) h4 { color: #6ab0f5; }
+.etapa-card:nth-child(2) h4 { color: #f5a05f; }
+.etapa-card:nth-child(3) h4 { color: #5fcf8a; }
+.etapa-card ul { margin: 0; padding-left: 1.2rem; }
+.etapa-card li { margin-bottom: 3px; color: #000000; }
+
+/* ----- IMAGEN CON ESTILO ----- */
+.img-seccion {
+  width: 100%;
+  border-radius: 12px;
+  margin: 1.2rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  display: block;
+}
+.img-caption {
+  text-align: center;
+  font-size: 0.82rem;
+  color: #000000;
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ----- DIVISOR DECORATIVO ----- */
+.divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #3892f8, transparent);
+  margin: 2rem 0;
+}
+
+/* ----- CAJA DESTACADA ----- */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(20,74,138,0.4), rgba(56,146,248,0.15));
+  border: 1px solid rgba(56,146,248,0.3);
+  border-radius: 12px;
+  padding: 1.3rem 1.6rem;
+  margin: 1.2rem 0;
+  color: #000000;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.highlight-box strong { color: #6ab0f5; }
+
+/* ----- PÁRRAFOS DE CONTENIDO ----- */
+.texto-seccion {
+  color: #000000;
+  font-size: 0.97rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* ----- FILTRO TABLA ----- */
+#filtro-tabla {
+  width: 100%;
+  padding: 9px 14px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.07);
+  color: #000000;
+  font-size: 0.92rem;
+  outline: none;
+  transition: border 0.3s;
+}
+#filtro-tabla:focus { border-color: #3892f8; }
+
+/* ----- LEYENDA ----- */
+.leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+/* ----- ANIMACIONES ----- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeUp 0.6s ease both; }
+
+/* ----- ESTADÍSTICO CARD (personajes) ----- */
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.persona-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s;
+}
+.persona-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255,255,255,0.09);
+}
+.persona-card .persona-nombre {
+  font-weight: 700;
+  color: #f0c080;
+  font-size: 0.97rem;
+  margin-bottom: 3px;
+}
+.persona-card .persona-fecha {
+  font-size: 0.8rem;
+  color: #3892f8;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
+}
+.persona-card .persona-aporte {
+  font-size: 0.82rem;
+  color: #000000;
+  line-height: 1.5;
+}
+</style>
+<section id="historia-de-la-estadística" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Historia de la Estadística</h1>
+<div class="hero-section fade-in">
+  <h2 class="anchored" data-anchor-id="historia-de-la-estadística">¿Qué es la Estadística?</h2>
+  <p>
+    La estadística es una rama de las matemáticas dedicada a la <strong>recolección, organización, análisis e interpretación de datos</strong>. Su origen se remonta a las primeras civilizaciones, como Egipto, Babilonia y China, donde se realizaban censos y registros con fines administrativos, fiscales y militares.
+  </p>
+</div>
+
+<p class="texto-seccion">
+  Durante la <strong>Edad Media</strong>, el uso de datos continuó principalmente con propósitos gubernamentales, pero fue en el Renacimiento cuando comenzó a desarrollarse un enfoque más sistemático. En el siglo XVII, matemáticos como <strong>Blaise Pascal</strong> y <strong>Pierre de Fermat</strong> sentaron las bases de la teoría de la probabilidad al estudiar juegos de azar, lo que marcó un punto de partida fundamental para el desarrollo de la estadística moderna.
+</p>
+
+<p class="texto-seccion">
+  En los siglos XVIII y XIX, la estadística se consolidó como una disciplina científica. Figuras como <strong>Carl Friedrich Gauss</strong> contribuyeron con el desarrollo de la distribución normal, mientras que <strong>Adolphe Quetelet</strong> aplicó métodos estadísticos al estudio de fenómenos sociales.
+</p>
+
+<p class="texto-seccion">
+  Durante el siglo XX, <strong>Ronald Fisher</strong> desarrolló herramientas fundamentales como el diseño experimental y el análisis de varianza. En la actualidad, la estadística desempeña un papel esencial en la <strong>ciencia de datos, la inteligencia artificial y la salud pública</strong>.
+</p>
+
+<!-- Aquí puedes insertar tu imagen de historia -->
+<img src="Figura1.png" alt="Línea de tiempo de la estadística" class="img-seccion">
+<p class="img-caption">Figura 1. Línea del tiempo de la historia de la estadística.</p>
+
+<hr class="divider">
+<p>Personajes Clave de la Historia</p>
+<div class="persona-grid fade-in">
+
+  <div class="persona-card">
+    <div class="persona-nombre">Blaise Pascal</div>
+    <div class="persona-fecha">1623 – 1662</div>
+    <div class="persona-aporte">Co-fundador de la teoría de la probabilidad a través del estudio de juegos de azar.</div>
+  </div>
+
+  <div class="persona-card">
+    <div class="persona-nombre">Carl F. Gauss</div>
+    <div class="persona-fecha">1777 – 1855</div>
+    <div class="persona-aporte">Desarrolló la distribución normal y el método de mínimos cuadrados.</div>
+  </div>
+
+  <div class="persona-card">
+    <div class="persona-nombre">Adolphe Quetelet</div>
+    <div class="persona-fecha">1796 – 1874</div>
+    <div class="persona-aporte">Aplicó la estadística al estudio de fenómenos sociales y demográficos.</div>
+  </div>
+
+  <div class="persona-card">
+    <div class="persona-nombre">Ronald Fisher</div>
+    <div class="persona-fecha">1890 – 1962</div>
+    <div class="persona-aporte">Creó el diseño experimental y el análisis de varianza (ANOVA).</div>
+  </div>
+
+  <div class="persona-card">
+    <div class="persona-nombre">John Tukey</div>
+    <div class="persona-fecha">1915 – 2000</div>
+    <div class="persona-aporte">Impulsó el Análisis Exploratorio de Datos (EDA) y la estadística moderna.</div>
+  </div>
+
+</div>
+<p>Línea del Tiempo</p>
+<details>
+<summary style="color:#3892f8; cursor:pointer; font-size:0.9rem; margin-bottom:0.5rem;">
+   Ver código
+</summary>
+<pre style="background:#1e1e1e; color:#ddd; padding:1rem; border-radius:8px; font-size:0.8rem; overflow-x:auto;">&lt;div class="timeline fade-in"&gt;
+  &lt;div class="timeline-item"&gt;
+    &lt;div class="timeline-year"&gt;~ 3000 a.C.&lt;/div&gt;
+    &lt;div class="timeline-content"&gt;...&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</details>
+<div class="timeline fade-in">
+
+  <div class="timeline-item">
+    <div class="timeline-year">~ 3000 a.C.</div>
+    <div class="timeline-content">
+      <strong>Egipto, Babilonia y China</strong> — Las primeras civilizaciones realizaban censos y registros para organizar recursos, conocer la población y planificar la recaudación de impuestos.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Edad Media</div>
+    <div class="timeline-content">
+      Los datos se empleaban principalmente para fines <strong>fiscales y militares</strong>. Los gobiernos registraban tierras, cosechas y población.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Siglo XVII</div>
+    <div class="timeline-content">
+      <strong>Blaise Pascal y Pierre de Fermat</strong> desarrollaron la teoría de la probabilidad, marcando el inicio de la estadística moderna.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Siglos XVIII – XIX</div>
+    <div class="timeline-content">
+      <strong>Carl Friedrich Gauss</strong> y <strong>Adolphe Quetelet</strong> consolidaron la estadística como ciencia aplicada a fenómenos naturales y sociales.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Siglo XX</div>
+    <div class="timeline-content">
+      <strong>Ronald Fisher</strong> y <strong>John Tukey</strong> revolucionaron el análisis estadístico con el diseño experimental y el análisis exploratorio de datos.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Siglo XXI</div>
+    <div class="timeline-content">
+      La estadística se fusiona con la <strong>ciencia de datos e inteligencia artificial</strong>. El Big Data convierte a la estadística en herramienta clave para la toma de decisiones.
+    </div>
+  </div>
+
+</div>
+<hr>
+</section>
+<section id="conceptos-fundamentales-de-la-estadística" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Conceptos Fundamentales de la Estadística</h1>
+<!-- Imagen sección conceptos -->
+<img src="Figura2.png" alt="Conceptos fundamentales de estadística" class="img-seccion">
+<p class="img-caption">Figura 2. Conceptos fundamentales de la estadística.</p>
+<p>Población, Muestra y Variables</p>
+<div class="card-grid fade-in">
+
+  <div class="concepto-card">
+    <h4 class="anchored" data-anchor-id="conceptos-fundamentales-de-la-estadística">Población</h4>
+    <p>Conjunto completo de elementos, objetos o individuos que comparten una característica de interés para el estudio.</p>
+    <div class="ejemplo">Ejemplo: Todos los estudiantes matriculados en una universidad.</div>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Población Finita</h4>
+    <p>Aquella cuyo número de elementos puede contarse con exactitud; tiene un límite perfectamente definido.</p>
+    <div class="ejemplo">Ejemplo: Los 1.200 empleados de una empresa.</div>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Población Infinita</h4>
+    <p>Aquella cuyo número de elementos no puede delimitarse o es tan grande que resulta imposible de contar.</p>
+    <div class="ejemplo">Ejemplo: Las estrellas del universo.</div>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Muestra</h4>
+    <p>Subconjunto representativo de la población, seleccionado para estudiar y extraer conclusiones sobre el total.</p>
+    <div class="ejemplo">Ejemplo: 100 estudiantes seleccionados de la universidad para una encuesta.</div>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Característica</h4>
+    <p>Cualidad o atributo observable en los elementos de la población; lo que se mide, cuenta o clasifica.</p>
+    <div class="ejemplo">Ejemplo: El color de cabello de los estudiantes.</div>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Variable</h4>
+    <p>Cualquier característica que puede tomar distintos valores de un elemento a otro dentro de la misma población.</p>
+    <div class="ejemplo">Ejemplo: La estatura de cada estudiante.</div>
+  </div>
+
+</div>
+
+<div class="highlight-box fade-in">
+  <strong>Diferencia clave:</strong> La <em>característica</em> es el atributo en general (ej: "color de ojos"), mientras que la <em>variable</em> es ese mismo atributo cuando toma diferentes valores entre individuos (ej: azul, verde, café).
+</div>
+<p>Estadística Descriptiva vs.&nbsp;Inferencial</p>
+<div class="dos-cols fade-in">
+
+  <div class="col-card col-descriptiva">
+    <h4 class="anchored">Estadística Descriptiva</h4>
+    <p>Organiza, resume y presenta los datos obtenidos <em>sin ir más allá</em> del conjunto estudiado. Solo describe lo que ya se tiene.</p>
+    <br>
+    <p><strong>Ejemplo:</strong> En un salón de 30 alumnos, el promedio de notas es 3.8. No se saca ninguna conclusión más allá de ese salón.</p>
+  </div>
+
+  <div class="col-card col-inferencial">
+    <h4 class="anchored">Estadística Inferencial (Inductiva)</h4>
+    <p>A partir de los resultados de una <em>muestra</em>, generaliza conclusiones para toda la población usando probabilidad.</p>
+    <br>
+    <p><strong>Ejemplo:</strong> Se encuestan 500 personas para predecir el resultado de las elecciones del país entero.</p>
+  </div>
+
+</div>
+<p>Utilidad en Administración Pública</p>
+<p class="texto-seccion">
+  La estadística es herramienta fundamental para el administrador público porque su trabajo gira en torno a decisiones que afectan comunidades enteras:
+</p>
+
+<!-- Imagen administración pública -->
+<img src="Figura3.png" alt="Estadística en administración pública" class="img-seccion">
+<p class="img-caption">Figura 3. Aplicación de la estadística en la administración pública.</p>
+
+<div class="card-grid fade-in">
+
+  <div class="concepto-card">
+    <h4 class="anchored">Planeación de políticas públicas</h4>
+    <p>Antes de construir un hospital, colegio o vía, el administrador necesita saber cuántas personas viven en la zona. Sin datos estadísticos, esa decisión sería a ciegas.</p>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Medición de programas sociales</h4>
+    <p>Si el gobierno lanza un programa de subsidios o empleo, la estadística permite medir si está funcionando comparando cifras antes y después.</p>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Administración del presupuesto</h4>
+    <p>Los datos sobre pobreza, cobertura en salud o deserción escolar indican dónde hay más necesidades y cómo priorizar el gasto público.</p>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Rendición de cuentas</h4>
+    <p>La transparencia en lo público exige mostrar resultados con números reales: familias beneficiadas, presupuesto ejecutado, reducción del desempleo.</p>
+  </div>
+
+  <div class="concepto-card">
+    <h4 class="anchored">Encuestas de satisfacción</h4>
+    <p>El administrador puede medir qué tan satisfecha está la comunidad con los servicios del Estado y usar esa información para mejorar.</p>
+  </div>
+
+</div>
+<p>Fenómenos Estadísticos y No Estadísticos</p>
+<div class="dos-cols fade-in">
+
+  <div class="col-card col-descriptiva">
+    <h4 class="anchored">Fenómenos Estadísticos</h4>
+    <p>Ocurren de forma <em>repetida y colectiva</em>, permitiendo observar patrones y tendencias.</p>
+    <ul>
+      <li>El índice de precios al consumidor mes a mes.</li>
+      <li>La tasa de desempleo en una ciudad durante el año.</li>
+      <li>Las ventas mensuales de un supermercado en 12 meses.</li>
+    </ul>
+  </div>
+
+  <div class="col-card col-inferencial" style="border-color:#f56a8a;">
+    <h4 style="color:#f56a8a;" class="anchored">Fenómenos NO Estadísticos</h4>
+    <p>Hechos <em>individuales y únicos</em> que no pueden generalizarse ni compararse.</p>
+    <ul>
+      <li>El nacimiento de una sola persona.</li>
+      <li>La firma de un único contrato entre dos empresas.</li>
+      <li>La opinión personal de un solo individuo.</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="qa-box fade-in">
+  <div class="pregunta">Principio clave</div>
+  <div class="respuesta">
+    <em>"La estadística estudia el comportamiento de fenómenos colectivos y nunca de una observación individual."</em><br><br>
+    Este principio es correcto: la estadística pierde sentido cuando se aplica a una sola observación, porque no hay con qué comparar ni analizar tendencias. Decir que "Juan mide 1.80 m" no es estadística. Pero decir que "el promedio de estatura de 1.000 hombres colombianos es 1.70 m" sí lo es.
+  </div>
+</div>
+<p>Etapas de una Investigación Estadística</p>
+<div class="etapas-grid fade-in">
+
+  <div class="etapa-card">
+    <h4 class="anchored">1. Planeación</h4>
+    <ul>
+      <li>Definir el objetivo</li>
+      <li>Investigación preliminar</li>
+      <li>Formulación de hipótesis</li>
+      <li>Diseño del formulario</li>
+      <li>Diseño muestral</li>
+    </ul>
+  </div>
+
+  <div class="etapa-card">
+    <h4 class="anchored">2. Recolección de datos</h4>
+    <ul>
+      <li>Selección y capacitación de encuestadores</li>
+      <li>Trabajo de campo</li>
+      <li>Revisión y validación de formularios</li>
+    </ul>
+  </div>
+
+  <div class="etapa-card">
+    <h4 class="anchored">3. Procesamiento y análisis</h4>
+    <ul>
+      <li>Codificación y tabulación</li>
+      <li>Análisis e interpretación</li>
+      <li>Elaboración de informes y conclusiones</li>
+    </ul>
+  </div>
+
+</div>
+<p>Preguntas de Repaso</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"></ul>
+<div class="tab-content">
+
+</div>
+</div>
+<hr>
+</section>
+<section id="clasificación-de-variables" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Clasificación de Variables</h1>
+<p class="texto-seccion">
+  Una <strong>variable</strong> es cualquier característica que puede tomar distintos valores. En estadística se clasifican según su naturaleza en <strong>cualitativas</strong> y <strong>cuantitativas</strong>, y estas a su vez en subtipos.
+</p>
+
+<div class="card-grid fade-in">
+
+  <div class="concepto-card" style="border-left-color:#6ab0f5;">
+    <h4 style="color:#6ab0f5;" class="anchored" data-anchor-id="clasificación-de-variables">Variable Nominal <span class="badge badge-nominal">Cualitativa</span></h4>
+    <p>Categorías <strong>sin ningún orden</strong> entre ellas. Solo permiten clasificar, no ordenar ni medir.</p>
+    <div class="ejemplo">Ejemplos: tipo de contrato, sector gubernamental, departamento de trabajo, tipo de ciudadano.</div>
+  </div>
+
+  <div class="concepto-card" style="border-left-color:#5fcf8a;">
+    <h4 style="color:#5fcf8a;" class="anchored">Variable Ordinal <span class="badge badge-ordinal">Cualitativa</span></h4>
+    <p>Categorías que tienen un <strong>orden lógico</strong>, pero la distancia entre categorías no es necesariamente igual.</p>
+    <div class="ejemplo">Ejemplos: nivel de experiencia (bajo/medio/alto), grado de satisfacción, calidad del servicio.</div>
+  </div>
+
+  <div class="concepto-card" style="border-left-color:#f5a05f;">
+    <h4 style="color:#f5a05f;" class="anchored">Variable Discreta <span class="badge badge-discreta">Cuantitativa</span></h4>
+    <p>Toma valores <strong>enteros contables</strong>. No puede tomar valores intermedios entre dos consecutivos.</p>
+    <div class="ejemplo">Ejemplos: número de empleados, contratos firmados, quejas recibidas, reuniones realizadas.</div>
+  </div>
+
+  <div class="concepto-card" style="border-left-color:#f56a8a;">
+    <h4 style="color:#f56a8a;" class="anchored">Variable Continua <span class="badge badge-continua">Cuantitativa</span></h4>
+    <p>Puede tomar <strong>cualquier valor</strong> dentro de un intervalo, incluyendo decimales. Se obtiene por medición.</p>
+    <div class="ejemplo">Ejemplos: tasa de desempleo (%), presupuesto anual, crecimiento económico, tiempo de respuesta.</div>
+  </div>
+
+</div>
+<p>Tabla de Clasificación — Administración Pública</p>
+<p class="texto-seccion">Busca variables por nombre o filtra por tipo usando la barra de búsqueda:</p>
+
+<input type="text" id="filtro-tabla" placeholder="Buscar variable... (ej: salario, tipo, nivel)" onkeyup="filtrarTabla()">
+
+<div class="leyenda">
+  <span class="badge badge-nominal">N Nominal</span>
+  <span class="badge badge-ordinal">O Ordinal</span>
+  <span class="badge badge-discreta">D Discreta</span>
+  <span class="badge badge-continua">C Continua</span>
+</div>
+
+
+<table id="tablaVariables" class="tabla-variables caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Variable</th>
+<th data-quarto-table-cell-role="th">Nominal</th>
+<th data-quarto-table-cell-role="th">Ordinal</th>
+<th data-quarto-table-cell-role="th">Discreta</th>
+<th data-quarto-table-cell-role="th">Continua</th>
+<th data-quarto-table-cell-role="th">Justificación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Calidad del servicio público</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Categorías con orden</td>
+</tr>
+<tr class="even">
+<td>Cantidad de energía consumida (MW)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Medición continua</td>
+</tr>
+<tr class="odd">
+<td>Cantidad de recursos naturales (ton)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Medición continua</td>
+</tr>
+<tr class="even">
+<td>Categoría de proyecto</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categorías sin orden</td>
+</tr>
+<tr class="odd">
+<td>Clasificación de entidad pública</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Sin jerarquía</td>
+</tr>
+<tr class="even">
+<td>Complejidad de trámites</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden lógico</td>
+</tr>
+<tr class="odd">
+<td>Crecimiento económico (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Dato continuo</td>
+</tr>
+<tr class="even">
+<td>Cumplimiento de metas (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Departamento de trabajo</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="even">
+<td>Días perdidos por huelga</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Expedientes archivados</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Gastos operativos</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Valor numérico continuo</td>
+</tr>
+<tr class="odd">
+<td>Grado de cumplimiento</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="even">
+<td>Grado de innovación</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="odd">
+<td>Índice de pobreza (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="even">
+<td>Índice de satisfacción (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Inspecciones realizadas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Inversión en infraestructura (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Licencias emitidas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Modalidad de adjudicación</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categorías</td>
+</tr>
+<tr class="odd">
+<td>Nivel de acceso a servicios</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="even">
+<td>Nivel de deuda pública</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Valor continuo</td>
+</tr>
+<tr class="odd">
+<td>Nivel de experiencia</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="even">
+<td>Nivel de riesgo</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="odd">
+<td>Nivel de urgencia</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="even">
+<td>Número de actas levantadas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Número de auditorías</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Número de comisiones</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Número de contratos</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Número de empleados</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Presupuesto anual</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="even">
+<td>Prioridad de proyectos</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Orden</td>
+</tr>
+<tr class="odd">
+<td>Propuestas recibidas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Proyectos completados</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Quejas recibidas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Régimen de seguridad social</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="odd">
+<td>Reuniones realizadas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Rotación de personal (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Salario promedio</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="even">
+<td>Sanciones impuestas</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="odd">
+<td>Satisfacción de ciudadanos</td>
+<td></td>
+<td><span class="check check-ordinal">✓</span></td>
+<td></td>
+<td></td>
+<td>Escala ordenada</td>
+</tr>
+<tr class="even">
+<td>Sector gubernamental</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="odd">
+<td>Solicitudes de información</td>
+<td></td>
+<td></td>
+<td><span class="check check-discreta">✓</span></td>
+<td></td>
+<td>Conteo</td>
+</tr>
+<tr class="even">
+<td>Tasa de criminalidad</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Tasa de desempleo (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="even">
+<td>Tiempo de respuesta (días)</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="check check-continua">✓</span></td>
+<td>Continuo</td>
+</tr>
+<tr class="odd">
+<td>Tipo de ciudadano</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="even">
+<td>Tipo de contrato</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="odd">
+<td>Tipo de documentación</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+<tr class="even">
+<td>Tipo de servicio público</td>
+<td><span class="check check-nominal">✓</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Categoría</td>
+</tr>
+</tbody>
+</table>
+
+
+<script>
+function filtrarTabla() {
+  var input = document.getElementById("filtro-tabla").value.toLowerCase();
+  var filas = document.querySelectorAll("#tablaVariables tbody tr");
+  filas.forEach(function(fila) {
+    var texto = fila.innerText.toLowerCase();
+    fila.style.display = texto.includes(input) ? "" : "none";
+  });
+}
+</script>
+<p>Resumen Visual por Tipo</p>
+<div class="cell" data-layout-align="center">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>tipos <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Tipo     =</span> <span class="fu">c</span>(<span class="st">"Nominal"</span>, <span class="st">"Ordinal"</span>, <span class="st">"Discreta"</span>, <span class="st">"Continua"</span>),</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Cantidad =</span> <span class="fu">c</span>(<span class="dv">12</span>, <span class="dv">11</span>, <span class="dv">15</span>, <span class="dv">18</span>),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Color    =</span> <span class="fu">c</span>(<span class="st">"#6ab0f5"</span>, <span class="st">"#5fcf8a"</span>, <span class="st">"#f5a05f"</span>, <span class="st">"#f56a8a"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_ly</span>(tipos,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="sc">~</span>Tipo,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="sc">~</span>Cantidad,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="at">type =</span> <span class="st">"bar"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        <span class="at">marker =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="sc">~</span>Color,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>                      <span class="at">line =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"rgba(255,255,255,0.3)"</span>, <span class="at">width =</span> <span class="dv">1</span>)),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">text =</span> <span class="sc">~</span><span class="fu">paste</span>(Cantidad, <span class="st">"variables"</span>),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">textposition =</span> <span class="st">"outside"</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">hovertemplate =</span> <span class="st">"&lt;b&gt;%{x}&lt;/b&gt;&lt;br&gt;%{y} variables&lt;extra&gt;&lt;/extra&gt;"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">layout</span>(</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="fu">list</span>(<span class="at">text =</span> <span class="st">"Distribución de variables por tipo"</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                 <span class="at">font =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"#eee"</span>, <span class="at">size =</span> <span class="dv">15</span>)),</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">xaxis =</span> <span class="fu">list</span>(<span class="at">title =</span> <span class="st">""</span>, <span class="at">color =</span> <span class="st">"#aaa"</span>, <span class="at">showgrid =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">yaxis =</span> <span class="fu">list</span>(<span class="at">title =</span> <span class="st">"Número de variables"</span>, <span class="at">color =</span> <span class="st">"#aaa"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>                 <span class="at">gridcolor =</span> <span class="st">"rgba(255,255,255,0.08)"</span>),</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">paper_bgcolor =</span> <span class="st">"rgba(0,0,0,0)"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot_bgcolor  =</span> <span class="st">"rgba(0,0,0,0)"</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">font =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"#ccc"</span>),</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">showlegend =</span> <span class="cn">FALSE</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-0e8fbd713296fea34d8c" style="width:70%;height:576px;"></div>
+<script type="application/json" data-for="htmlwidget-0e8fbd713296fea34d8c">{"x":{"visdat":{"c14c7dbb1aa4":["function () ","plotlyVisDat"]},"cur_data":"c14c7dbb1aa4","attrs":{"c14c7dbb1aa4":{"x":{},"y":{},"marker":{"color":{},"line":{"color":"rgba(255,255,255,0.3)","width":1}},"text":{},"textposition":"outside","hovertemplate":"<b>%{x}<\/b><br>%{y} variables<extra><\/extra>","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":{"text":"Distribución de variables por tipo","font":{"color":"#eee","size":15}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","color":"#aaa","showgrid":false,"type":"category","categoryorder":"array","categoryarray":["Continua","Discreta","Nominal","Ordinal"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Número de variables","color":"#aaa","gridcolor":"rgba(255,255,255,0.08)"},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","font":{"color":"#ccc"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Nominal","Ordinal","Discreta","Continua"],"y":[12,11,15,18],"marker":{"color":["#6ab0f5","#5fcf8a","#f5a05f","#f56a8a"],"line":{"color":"rgba(255,255,255,0.3)","width":1}},"text":["12 variables","11 variables","15 variables","18 variables"],"textposition":["outside","outside","outside","outside"],"hovertemplate":["<b>%{x}<\/b><br>%{y} variables<extra><\/extra>","<b>%{x}<\/b><br>%{y} variables<extra><\/extra>","<b>%{x}<\/b><br>%{y} variables<extra><\/extra>","<b>%{x}<\/b><br>%{y} variables<extra><\/extra>"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="index_files/libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
